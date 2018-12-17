@@ -16,3 +16,10 @@
 
 > 最实用：后台设置 domain=xxx.com
 
+## 利用img.src测网速
+
+## 语义化
+
+实用div布局  不用div包裹无意义的东西
+
+尽量少写HTML
