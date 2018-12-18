@@ -18,6 +18,16 @@
 
 ## 利用img.src测网速
 
+```javascript
+const img = new Image();
+const start = Date.now();
+img.src = '/1.gif';
+img.onload = function() {
+  const end = Date.now();
+  const v = (1k / (end - start)); // 伪代码
+}
+```
+
 ## 语义化
 
 实用div布局  不用div包裹无意义的东西
